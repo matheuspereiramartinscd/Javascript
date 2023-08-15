@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+ 
+@font-face {
+    font-family: 'technologyregular';
+    src: url('/fonts/webfontkit-20230705-110405/technology-webfont.woff2') format('woff2'),
+         url('/fonts/webfontkit-20230705-110405/') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body, html{
+    height: 100%;
+    width:100%;
+    background-color: #332E30;
+    box-sizing: border-box;
+   
+
+}
+
+.container{
+   
+    padding:10%;
+}
+
+.calculadora{ 
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: #808080;
+    width: 400px;
+    height: 430px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#display{
+    font-size:30px;
+    margin:0 auto;
+    position: relative;
+    top:5%;
+    background-color: #F2BE4E;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 90%;
+    height: 60px;
+    margin-bottom:30px;
+}
+
+#displaytext{
+    padding-top:10px;
+   
+    text-align: center;
+    font-weight: bold;
+}
+
+button{
+    border-radius: 4px;
+    background-color: black;
+    color: #F2BE4E;
+    font-size:20px;
+
+    width:75px;
+    height:55px;
+    font-family: 'technologyregular';
+}
+
+button:hover{
+    color: white;
+    background-color:#3578F2;
+}
+
+#igual{
+    float:right;
+    height:220px;
+    position: relative;
+    right:88px;
+    bottom:55px;
+}
+
+.operacoes{
+    padding-top:14px;
+    text-align: center;
+}
+
+.numeros{
+  position:relative;
+  left:45px;
+}
+
+#limpar{ 
+    width:153px;
+}
+
+.copyright{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+
+}
