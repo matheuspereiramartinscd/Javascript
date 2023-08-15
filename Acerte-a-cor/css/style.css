@@ -1,0 +1,72 @@
+*{ margin:0;
+padding:0;
+}
+
+body, html{ 
+    background-color: #000000;
+    height:50vh;
+    width:100%;
+}
+
+.cabecalho{
+    background-color: #3771F0;
+    text-align: center;
+    padding:20px;
+}
+
+.title{
+    font-size:50px;
+    color: #FFFFFF;
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
+}
+
+#rgb{
+    font-size:100px;
+    color:white;
+    text-shadow: 3px 4px 7px rgba(13, 13, 12, 0.8);
+}
+
+.bar{
+    background-color: #FFEDE6;
+    text-align: center;
+    padding:10px;
+}
+
+.colors{
+    background-color: #000000;
+    height:100%;
+    text-align: center;
+    padding-top:70px;
+}
+
+.acertou{
+    color: greenyellow;
+}
+
+.errou {
+    color:red;
+}
+
+
+.newcolors{
+    font-size:20px;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.buttonbox{
+    height:200px;
+    width:200px;
+    margin:10px;
+    border-radius:40px;
+}
+
+.copyright{
+    color:white;
+
+    position: absolute;
+    bottom:0;
+    right:0;
+
+}
+
