@@ -1,0 +1,162 @@
+* {
+    margin:0;
+    padding:0;
+    
+}
+
+.drumsetbox{
+    display: none;
+}
+
+body, html {
+    height:100%;
+    width:100%;
+ 
+    overflow: hidden;
+ 
+}
+
+
+
+.container{
+ 
+    background-image: url('/images/drumset.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    left:20%;
+    top:25%;
+    height:100%;
+    width:100%;
+}
+
+.keymapping{
+    height:750px;
+    width: 220px;
+    background-color:  #919191;
+    position: relative;
+    color: black;
+    left:59%;
+    bottom:15%;
+}
+
+
+.title{
+    color:white;
+    text-align: center;
+    padding-top:15px;
+    font-size:35px;
+}
+
+.border{
+    margin-top:10px;
+    border: solid white;
+    border-width:1px;
+
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    font-family:cursive;
+    font-weight: bold;
+    font-size:20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+button:hover{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    background-color: bisque;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding:30px;
+    display: inline;
+   
+}
+
+span{color:white;}
+
+li{
+    
+    color: white;
+    padding:10px;
+}
+
+#bpratodeataque {
+    position: absolute;
+    top:10%;
+    display: none;
+    left:6%;
+ 
+}
+
+#btom01 {
+    
+    position: absolute;
+    top:22%;
+    
+    left:12%;
+  
+}
+
+#btom02 {
+    position: absolute;
+    bottom:82%;
+    left:14%;
+ 
+}
+
+#btom03 {
+    position: absolute;
+    bottom:81%;
+    left:21%;
+ 
+}
+
+#bcaixa {
+    position: absolute;
+    bottom:75%;
+    left:24%;
+ 
+}
+
+#bpratodeconducao {
+    position: absolute;
+    bottom:75%;
+    left:29%;
+   
+}
+
+#bbumbo{
+    position: absolute;
+    bottom:60%;
+    left:20%;
+
+}
+
+#bbumbo02{
+    position: absolute;
+    bottom:60%;
+    left:15%;
+   
+}
+
+.titlebateria{
+    font-size:40px;
+    position:relative;
+    bottom:20%;
+    left:11%;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
