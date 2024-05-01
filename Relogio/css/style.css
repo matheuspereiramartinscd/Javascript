@@ -1,0 +1,47 @@
+
+
+* , body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+
+
+
+.container{
+    height: 100%;
+    width:100%;
+    background-color: black;
+}
+
+#time{
+    text-align: center;
+    position: relative;
+    top:30%;
+    font-size: 100px;
+    color: 0FFAE7;
+    text-shadow: 10px 10px 25px #1C92F5,
+    -10px 10px 25px #1C92F5,
+    -10px -10px 25px #1C92F5,
+    10px -10px 25px #1C92F5;
+    font-family:'Orbitron', sans-serif;
+
+ }
+
+ .clock{
+    text-align: center;
+    position: relative;
+    top:15%;
+    font-size: 30px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+ }
+
+ .copyright{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }
